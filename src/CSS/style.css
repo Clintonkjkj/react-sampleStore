@@ -1,0 +1,96 @@
+.cart {
+  height: fit-content;
+  width: 45%;
+  box-shadow: 2px 2px 8px 0.1px;
+  padding: 10px;
+  position: sticky;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: -5px;
+}
+.carSingle {
+  padding: 20px 0;
+}
+.cartImage img {
+  height: 60px;
+}
+.cartName {
+  display: inline;
+}
+.cartPrice {
+  display: inline;
+  margin-left: 10px;
+  font-size: larger;
+  font-weight: bold;
+}
+.Total {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px;
+}
+.cartQty {
+  font-size: 14px;
+}
+.main-banner {
+  padding: 20px;
+  color: aliceblue;
+  font-size: 25px;
+  padding-left: 20px;
+  background-color: rgb(6, 4, 59);
+}
+.left-bar {
+}
+.delete {
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(234, 165, 112);
+  cursor: pointer;
+}
+.Main {
+  display: flex;
+}
+.products {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.imageDiv {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+.price {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+}
+.name {
+  font-size: 18px;
+  text-align: left;
+}
+.addBtn {
+  margin: 5px;
+  float: right;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(231, 155, 127);
+  font-size: 16px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.productImage {
+  margin: auto;
+  max-height: 150px;
+  padding-top: 20px;
+}
+.productSingle {
+  margin: 20px;
+  box-shadow: 2px 2px 8px 0.1px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  padding: 10px;
+}
